@@ -23,27 +23,20 @@ The app is deployed on **Streamlit Cloud** and automatically updates on every Gi
 ## 📁 Project Structure
 
 myportfolio/
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
 │
-├── app.py                     # Main Streamlit application
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
+├── .streamlit/
+│   └── config.toml
 │
-├── assets/                    # Static files
-│   ├── images/                # All images
-│   │   ├── profile.jpg
-│   │   ├── project1.png
-│   │   └── project2.png
-│   │
-│   ├── videos/                # Videos (optional)
-│   │   └── intro.mp4
-│   │
-│   └── icons/                 # Icons (optional)
-│       └── github.png
+├── assets/
+│   ├── images/
+│   ├── videos/
+│   └── icons/
 │
-├── .streamlit/                # Streamlit configuration
-│   └── config.toml            # Theme (dark/light)
-│
-└── .gitignore                 # Files to ignore
+└── venv/
 
 ## ✨ Features
 - Sidebar-based navigation
